@@ -1,6 +1,6 @@
 module.exports = Object.freeze({
   TOKEN: 'bot_token',
-  ARIA_SECRET: 'aria2_secret',
+  ARIA_SECRET: 'myaria2',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
@@ -27,5 +27,6 @@ module.exports = Object.freeze({
   },
   IS_TEAM_DRIVE: false,
   USE_SERVICE_ACCOUNT: false,
-  INDEX_DOMAIN: "" // add an extra / at the end, for example https://www.gdindex.url/
+  INDEX_DOMAIN: "",
+  TELEGRAPH_TOKEN: '' // Telegraph token, if you want to show search results in telegra.ph else keep it blank
 });
